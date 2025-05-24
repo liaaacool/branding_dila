@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dila Aprilia - Koki & Jasa Catering</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff0f5;
+            color: #333;
+        }
+        header {
+            background-color: #ff69b4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ff69b4;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .about, .services, .contact {
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #ff69b4;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #e055a0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dila Aprilia</h1>
+        <p>Koki Profesional | Jasa Catering</p>
+    </header><nav>
+    <a href="#about">Tentang Saya</a>
+    <a href="#services">Layanan</a>
+    <a href="#contact">Kontak</a>
+</nav>
+
+<section id="about" class="about">
+    <h2>Tentang Saya</h2>
+    <p>Hai! Saya Dila Aprilia, seorang koki profesional dengan passion besar dalam dunia kuliner. Hobi saya adalah memasak dan menciptakan hidangan yang lezat dan menggugah selera. Dengan pengalaman dalam berbagai acara, saya menyediakan jasa catering untuk berbagai kebutuhan Anda.</p>
+</section>
+
+<section id="services" class="services">
+    <h2>Layanan</h2>
+    <ul>
+        <li>Catering acara pernikahan</li>
+        <li>Catering ulang tahun</li>
+        <li>Catering harian & mingguan</li>
+        <li>Konsultasi menu sehat dan diet</li>
+    </ul>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Kontak</h2>
+    <p>Ingin bekerja sama atau memesan layanan catering? Hubungi saya melalui:</p>
+    <p>Email: <a href="mailto:dila.aprilia@example.com">dila.aprilia@example.com</a></p>
+    <p>Telepon: <a href="tel:+628123456789">+62 812-3456-789</a></p>
+    <button onclick="alert('Terima kasih telah menghubungi Dila Aprilia!')">Hubungi Sekarang</button>
+</section>
+
+<footer>
+    <p>&copy; 2025 Dila Aprilia. Semua Hak Dilindungi.</p>
+</footer>
+
+<script>
+    // Tambahkan fungsi interaktif di sini jika diperlukan
+</script>
+
+</body>
+</html>
